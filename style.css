@@ -1,34 +1,29 @@
 *{
-    background-color: rgba(red, green, blue, alpha);
     margin: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-body.body{
-    display: inline;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 
 .home-title#main{
     color:whitesmoke;
-    background-color: grey;
-    padding-top: 65px;
     width: 350px;
     height: 170px;
     display: block;
-    margin: 0;
-    border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 5px;
     text-align: center;
+    font-size: 60px;
 }
 
 .hat{
-    margin-top: 97px;
-    margin-bottom: -97px;
-    margin-left: 60px;
-    width: 50px;
-    height: 50px;
+    margin-top: 29px;
+    margin-bottom: -60px;
+    margin-left: 75px;
+    width: 100px;
+    height: 100px;
     border: 0;
+    display: inline;
 }
 
 ul#home{
@@ -36,9 +31,60 @@ ul#home{
     background-color: blueviolet;
     border-radius: 10px;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 150px;
 }
-.link{
+
+body.body, body.recipes{
+    display: inline;
+    background-color: rgba( 0, 80, 114, 1);
+}
+
+body.recipes{
     color: aliceblue;
+}
+
+h1.recipes{
+    font-size: 60px;
+    padding: auto;
+    background-color: rgba(0, 44, 63, 1);
+    margin-bottom: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.recipes#button{
+    border: 1px solid rgba(22, 84, 110, 1);
+    background-color: rgba(22, 84, 110, 1);
+    display: block;
+    margin-left: 2px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.recipes#button2{
+    border: 1px solid rgb(12, 50, 66);
+    background-color: rgb(12, 50, 66);
+    display: inline;
+    margin-left: 2px;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 2px;
+}
+
+.description{
+    background-color: rgba(0, 44, 63, 1);
+    margin-bottom: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 5px;
+    padding: 5px
+    
+}
+
+.description#image{
+    margin-left: 200px;
+    height: 390;
+    width: 490;
+    display: inline;
+    padding: 25px;
 }
